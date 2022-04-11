@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44797C6819D9B2A700B53D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44797C6719D9B2A700B53D18 /* main.m */; };
+		44797C6B19D9B2A700B53D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44797C6A19D9B2A700B53D18 /* AppDelegate.m */; };
+		44797C6E19D9B2A700B53D18 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 44797C6D19D9B2A700B53D18 /* GameScene.m */; };
+		44797C7019D9B2A700B53D18 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44797C6F19D9B2A700B53D18 /* GameScene.sks */; };
+		44797C7219D9B2A700B53D18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44797C7119D9B2A700B53D18 /* Images.xcassets */; };
+		44797C7519D9B2A700B53D18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44797C7319D9B2A700B53D18 /* MainMenu.xib */; };
+		44797C8119D9B2A700B53D18 /* BoxAttackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44797C8019D9B2A700B53D18 /* BoxAttackTests.m */; };
+		44797C8C19D9B31400B53D18 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 44797C8B19D9B31400B53D18 /* Entity.m */; };
+		44797CBC19DAF8D400B53D18 /* sceneParam.c in Sources */ = {isa = PBXBuildFile; fileRef = 44797CBB19DAF8D400B53D18 /* sceneParam.c */; };
+		44797CC019DB237C00B53D18 /* Box.png in Resources */ = {isa = PBXBuildFile; fileRef = 44797CBE19DB237C00B53D18 /* Box.png */; };
+		44797CC119DB237C00B53D18 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 44797CBF19DB237C00B53D18 /* Player.png */; };
+		44797CC319DB2C3A00B53D18 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 44797CC219DB2C3A00B53D18 /* BG.png */; };
+		44797CDB19DC81C500B53D18 /* PlayerMove.png in Resources */ = {isa = PBXBuildFile; fileRef = 44797CDA19DC81C500B53D18 /* PlayerMove.png */; };
+		44EBACA519E30E3100EEC339 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EBACA419E30E3100EEC339 /* Level.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44797C7B19D9B2A700B53D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44797C5A19D9B2A700B53D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44797C6119D9B2A700B53D18;
+			remoteInfo = BoxAttack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44797C6219D9B2A700B53D18 /* BoxAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44797C6619D9B2A700B53D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44797C6719D9B2A700B53D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44797C6919D9B2A700B53D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44797C6A19D9B2A700B53D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44797C6C19D9B2A700B53D18 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		44797C6D19D9B2A700B53D18 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		44797C6F19D9B2A700B53D18 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		44797C7119D9B2A700B53D18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44797C7419D9B2A700B53D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44797C7A19D9B2A700B53D18 /* BoxAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44797C7F19D9B2A700B53D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44797C8019D9B2A700B53D18 /* BoxAttackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxAttackTests.m; sourceTree = "<group>"; };
+		44797C8A19D9B31400B53D18 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		44797C8B19D9B31400B53D18 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		44797CBB19DAF8D400B53D18 /* sceneParam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sceneParam.c; sourceTree = "<group>"; };
+		44797CBE19DB237C00B53D18 /* Box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Box.png; sourceTree = "<group>"; };
+		44797CBF19DB237C00B53D18 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		44797CC219DB2C3A00B53D18 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		44797CDA19DC81C500B53D18 /* PlayerMove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerMove.png; sourceTree = "<group>"; };
+		44EBACA319E30E3100EEC339 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		44EBACA419E30E3100EEC339 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44797C5F19D9B2A700B53D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44797C7719D9B2A700B53D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44797C5919D9B2A700B53D18 = {
+			isa = PBXGroup;
+			children = (
+				44797C6419D9B2A700B53D18 /* BoxAttack */,
+				44797C7D19D9B2A700B53D18 /* BoxAttackTests */,
+				44797C6319D9B2A700B53D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44797C6319D9B2A700B53D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44797C6219D9B2A700B53D18 /* BoxAttack.app */,
+				44797C7A19D9B2A700B53D18 /* BoxAttackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44797C6419D9B2A700B53D18 /* BoxAttack */ = {
+			isa = PBXGroup;
+			children = (
+				44EBACA319E30E3100EEC339 /* Level.h */,
+				44EBACA419E30E3100EEC339 /* Level.m */,
+				44797CBD19DB237C00B53D18 /* Textures */,
+				44797C6919D9B2A700B53D18 /* AppDelegate.h */,
+				44797C6A19D9B2A700B53D18 /* AppDelegate.m */,
+				44797C6C19D9B2A700B53D18 /* GameScene.h */,
+				44797C6D19D9B2A700B53D18 /* GameScene.m */,
+				44797C6F19D9B2A700B53D18 /* GameScene.sks */,
+				44797C7119D9B2A700B53D18 /* Images.xcassets */,
+				44797C7319D9B2A700B53D18 /* MainMenu.xib */,
+				44797C6519D9B2A700B53D18 /* Supporting Files */,
+				44797C8A19D9B31400B53D18 /* Entity.h */,
+				44797C8B19D9B31400B53D18 /* Entity.m */,
+				44797CBB19DAF8D400B53D18 /* sceneParam.c */,
+			);
+			path = BoxAttack;
+			sourceTree = "<group>";
+		};
+		44797C6519D9B2A700B53D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44797C6619D9B2A700B53D18 /* Info.plist */,
+				44797C6719D9B2A700B53D18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44797C7D19D9B2A700B53D18 /* BoxAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				44797C8019D9B2A700B53D18 /* BoxAttackTests.m */,
+				44797C7E19D9B2A700B53D18 /* Supporting Files */,
+			);
+			path = BoxAttackTests;
+			sourceTree = "<group>";
+		};
+		44797C7E19D9B2A700B53D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44797C7F19D9B2A700B53D18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44797CBD19DB237C00B53D18 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				44797CDA19DC81C500B53D18 /* PlayerMove.png */,
+				44797CC219DB2C3A00B53D18 /* BG.png */,
+				44797CBE19DB237C00B53D18 /* Box.png */,
+				44797CBF19DB237C00B53D18 /* Player.png */,
+			);
+			path = Textures;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44797C6119D9B2A700B53D18 /* BoxAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44797C8419D9B2A700B53D18 /* Build configuration list for PBXNativeTarget "BoxAttack" */;
+			buildPhases = (
+				44797C5E19D9B2A700B53D18 /* Sources */,
+				44797C5F19D9B2A700B53D18 /* Frameworks */,
+				44797C6019D9B2A700B53D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxAttack;
+			productName = BoxAttack;
+			productReference = 44797C6219D9B2A700B53D18 /* BoxAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44797C7919D9B2A700B53D18 /* BoxAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44797C8719D9B2A700B53D18 /* Build configuration list for PBXNativeTarget "BoxAttackTests" */;
+			buildPhases = (
+				44797C7619D9B2A700B53D18 /* Sources */,
+				44797C7719D9B2A700B53D18 /* Frameworks */,
+				44797C7819D9B2A700B53D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44797C7C19D9B2A700B53D18 /* PBXTargetDependency */,
+			);
+			name = BoxAttackTests;
+			productName = BoxAttackTests;
+			productReference = 44797C7A19D9B2A700B53D18 /* BoxAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44797C5A19D9B2A700B53D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RUSlan;
+				TargetAttributes = {
+					44797C6119D9B2A700B53D18 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					44797C7919D9B2A700B53D18 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 44797C6119D9B2A700B53D18;
+					};
+				};
+			};
+			buildConfigurationList = 44797C5D19D9B2A700B53D18 /* Build configuration list for PBXProject "BoxAttack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44797C5919D9B2A700B53D18;
+			productRefGroup = 44797C6319D9B2A700B53D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44797C6119D9B2A700B53D18 /* BoxAttack */,
+				44797C7919D9B2A700B53D18 /* BoxAttackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44797C6019D9B2A700B53D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44797C7019D9B2A700B53D18 /* GameScene.sks in Resources */,
+				44797C7219D9B2A700B53D18 /* Images.xcassets in Resources */,
+				44797CC319DB2C3A00B53D18 /* BG.png in Resources */,
+				44797C7519D9B2A700B53D18 /* MainMenu.xib in Resources */,
+				44797CC019DB237C00B53D18 /* Box.png in Resources */,
+				44797CDB19DC81C500B53D18 /* PlayerMove.png in Resources */,
+				44797CC119DB237C00B53D18 /* Player.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44797C7819D9B2A700B53D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44797C5E19D9B2A700B53D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EBACA519E30E3100EEC339 /* Level.m in Sources */,
+				44797CBC19DAF8D400B53D18 /* sceneParam.c in Sources */,
+				44797C8C19D9B31400B53D18 /* Entity.m in Sources */,
+				44797C6B19D9B2A700B53D18 /* AppDelegate.m in Sources */,
+				44797C6E19D9B2A700B53D18 /* GameScene.m in Sources */,
+				44797C6819D9B2A700B53D18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44797C7619D9B2A700B53D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44797C8119D9B2A700B53D18 /* BoxAttackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44797C7C19D9B2A700B53D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44797C6119D9B2A700B53D18 /* BoxAttack */;
+			targetProxy = 44797C7B19D9B2A700B53D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44797C7319D9B2A700B53D18 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44797C7419D9B2A700B53D18 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44797C8219D9B2A700B53D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44797C8319D9B2A700B53D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44797C8519D9B2A700B53D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BoxAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44797C8619D9B2A700B53D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BoxAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44797C8819D9B2A700B53D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoxAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxAttack.app/Contents/MacOS/BoxAttack";
+			};
+			name = Debug;
+		};
+		44797C8919D9B2A700B53D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoxAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxAttack.app/Contents/MacOS/BoxAttack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44797C5D19D9B2A700B53D18 /* Build configuration list for PBXProject "BoxAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44797C8219D9B2A700B53D18 /* Debug */,
+				44797C8319D9B2A700B53D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44797C8419D9B2A700B53D18 /* Build configuration list for PBXNativeTarget "BoxAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44797C8519D9B2A700B53D18 /* Debug */,
+				44797C8619D9B2A700B53D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44797C8719D9B2A700B53D18 /* Build configuration list for PBXNativeTarget "BoxAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44797C8819D9B2A700B53D18 /* Debug */,
+				44797C8919D9B2A700B53D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44797C5A19D9B2A700B53D18 /* Project object */;
+}
